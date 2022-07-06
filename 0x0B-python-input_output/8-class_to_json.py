@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+"""json object"""
 
 
 def class_to_json(obj):
-    return vars(obj)
+    """dict obj"""
+    return obj.__dict__
